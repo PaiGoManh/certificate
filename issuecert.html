@@ -73,9 +73,8 @@
             </div>
 
             <div>
-                <a href="certificatepage.html">
                     <button type="button" onclick="handleSubmit()"  class="bg-cyan-400 py-1 px-2 mt-3 rounded-md border-none">Issue Certificate</button>
-                </a>
+                
             </div>
         </form>
     </div>
@@ -95,6 +94,7 @@
             localStorage.setItem("gradeid",gradeid);
             localStorage.setItem("issueDate",issueDate);
 
+            window.location.href="certificatepage.html";
 
         }
     </script>
